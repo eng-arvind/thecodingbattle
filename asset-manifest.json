@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/thecodingbattle/static/css/main.05d9cd8b.css",
+    "main.js": "/thecodingbattle/static/js/main.ac04e440.js",
+    "static/media/mypic.jpg": "/thecodingbattle/static/media/mypic.3749535f5cf867664745.jpg",
+    "static/media/asset 12.png": "/thecodingbattle/static/media/asset 12.7c157fa14e3f96395d17.png",
+    "index.html": "/thecodingbattle/index.html",
+    "main.05d9cd8b.css.map": "/thecodingbattle/static/css/main.05d9cd8b.css.map",
+    "main.ac04e440.js.map": "/thecodingbattle/static/js/main.ac04e440.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05d9cd8b.css",
+    "static/js/main.ac04e440.js"
+  ]
+}
