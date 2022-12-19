@@ -1,0 +1,24 @@
+.top-banner
+{
+    width: 100%;
+    background-image: linear-gradient(to bottom, #6674cc,#b578ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 0;
+}
+.banner
+{
+   max-width: 1180px;
+   margin: 0 auto;
+   padding-inline: var(--padding-inline-section);
+   display: flex;
+}
+.banner-text
+{
+    font-weight: 300;
+    color: white;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    text-align: center;
+}

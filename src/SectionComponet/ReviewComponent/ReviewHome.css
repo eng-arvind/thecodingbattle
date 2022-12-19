@@ -1,0 +1,66 @@
+.review-home
+{
+    background-color: rgb(247 ,248 ,252);
+}
+.recent-review
+{
+    display: flex;
+    padding: 3.5rem 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pre_heading
+{
+    color: var(--brand-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.section_heading
+{
+    color: black;
+    font-weight: 700;
+    font-size: 3rem;
+    opacity: 0.9;
+}
+
+.heading_button
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.heading_button button
+{
+    padding: 0.4rem 1.7rem;
+    border-radius: 9999px;
+    border-color: transparent;
+}
+
+.button1
+{
+    background-color: rgb(237, 237, 237);
+    color: black;
+}
+
+.button2
+{
+    background-color: var(--brand-color);
+    color: white;
+}
+
+.spacer
+{
+    margin-bottom: 5rem;
+    margin: 0 5rem 5rem 5rem;
+    border-top-style: solid;
+    border-color: rgb(192, 190, 190);
+    border-width: 2px;
+}
+
+.swipper
+{
+    padding: 1rem;
+    border-radius: 50%;
+}

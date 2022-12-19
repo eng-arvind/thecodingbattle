@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap');
+* 
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+:root
+{
+    --primary-color:#183b56;
+    --secondary-color:#577592;
+    --secondary-text-color:#4a4f5c;
+    --text-color:#9ca3af;
+    --white-color:#ffffff;
+    --back-color:#000000;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --tw-text-opacity: 1;
+    --paragraph-color:#777c85;
+    --brand-color:#6674cc;
+    --background-color:#6674cc;
+    --padding-inline-section:20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body
+{
+    font-family: 'Rubik', sans-serif;
+    color: var(--primary-color);
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1
+{
+    font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+h2
+{
+    font-size: 2rem;
+    color: var(--secondary-text-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3
+{
+    font-size: 1.5rem;
+}
+
+p
+{
+    font-family: 'Roboto',sans-serif;
+    color: var(---color);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+a
+{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul
+{
+    list-style: none;
+}
+.small-bold-text
+{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.flex
+{
+    display: flex;
+    align-items: center;
+}
+
+.btn_color
+{
+    color: var(--white-color) !important;
+}
+
+.btn_background
+{
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+ol,ul
+{
+    padding: 0 ;
+}
+
+.test
+{
+    background-color: #2294ed;
+}
+
+@media screen and (min-width: 300px) and (max-width: 925px) {
+
+    h1
+    {
+        font-size: 2rem;
+    }
+
+    h2
+    {
+    font-size: 1rem;
+    }
+
+    h3
+    {  
+    font-size: 0.5rem;
+    }
+
+    p
+    {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    }
+
+}
+
+
+@media screen and (max-width: 478px) 
+{
+    
 }

@@ -1,0 +1,119 @@
+.container-profile
+{
+    padding: 2.5rem 1.5rem;
+    background-color: var(--white-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.instructor
+{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instructor p
+{
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.instructor p span
+{
+    color: var(--background-color);
+}
+
+.instructor a 
+{
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+
+.instructor button
+{
+    color: var(--white-color);
+}
+
+.profile-item
+{
+   padding: 4rem 0;
+   border-top-style: solid;
+   border-width: 1px;
+}
+
+.profile-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img
+{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.profile-desc
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.profile-text
+{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.profile-subtext
+{
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+.placed-company
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.placed-in
+{
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+}
+.placed-in img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) 
+{
+    .instructor p
+    {
+        font-size: 5.5vw;
+    }
+    .instructor a button
+    {
+        padding: 1.5vw 3.5vw !important;
+    }
+
+    .profile-desc
+    {
+        gap: 1rem;
+    }
+}

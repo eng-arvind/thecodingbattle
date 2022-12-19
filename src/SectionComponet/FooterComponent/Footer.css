@@ -1,0 +1,59 @@
+.footer
+{
+    padding: 3rem 3rem;
+    background-color: rgb(102 ,116, 204);
+}
+
+.footer-main
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 4rem;
+    color: white;
+    border-bottom-style: solid;
+    border-color: rgba(250, 245, 245, 0.2);
+    border-width: 1px;
+}
+
+.copyright
+{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+p
+{
+    font-size: 1rem;
+}
+
+h2
+{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.footer-logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.vertical
+{
+    border-right-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 1px;
+    height: 170px;
+    background-color: white;
+}
+
+.footer-logo a img
+{
+    width: 5rem;
+    padding-bottom: 1rem;
+}

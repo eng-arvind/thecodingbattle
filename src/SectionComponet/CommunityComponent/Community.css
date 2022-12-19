@@ -1,0 +1,66 @@
+.join-heading
+{
+   padding-top: 4rem;
+   text-align: center;
+}
+
+.text-heading
+{
+    color: black;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.text-desc
+{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.social-media
+{
+    padding: 7rem 0;
+    margin: 0 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.media-logo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtube
+{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.linkedin
+{
+    color: rgb(0, 119, 181);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.discord
+{
+    color: rgb(88, 101, 242);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.telegram
+{
+    color: rgb(34, 158, 217);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
