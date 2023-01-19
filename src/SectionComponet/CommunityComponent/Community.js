@@ -10,7 +10,7 @@ const Community = () => {
             <p className='text-desc'>If you would like to keep up on the latest posts and courses,<br></br> come by and connect with us on the following links.</p>
         </div>
         <div className='social-media'>
-            <div className='media-logo'>
+            <div className='media-logo '>
                 <div className=""><a target="_blank" href="https://www.youtube.com/c/LoveBabbar1">
                     <img src="https://www.thecodehelp.in/_next/image?url=https%3A%2F%2Fcodehelp.s3.ap-south-1.amazonaws.com%2FYoutube_Oct_Denoiser_Beauty_001_copy_6a63d8ef65.png&w=1920&q=75" alt="" />
                     </a></div>
@@ -34,7 +34,8 @@ const Community = () => {
                     </a></div>
                 <div><a target="_blank" className='telegram' href="https://www.youtube.com/c/LoveBabbar1">Telegram</a></div>
             </div>
-        </div>
+        </div>            
+
         </section>
         </>
      );
